@@ -2,6 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "A Light Weight Multi-Distance fNIRS Dataset for Ball-Squeezing Task and Purposeful Motion Artifact Creation Task",
+  "description": "A high-density functional near-infrared spectroscopy (fNIRS) dataset acquired from the motor cortex during three experimental paradigms: resting state, ball-squeezing motor tasks, and purposeful motion artifact creation. The dataset includes accelerometer recordings and is designed to support development and validation of motion artifact correction and image reconstruction methods in fNIRS neuroimaging.",
+  "methods_description": "High-density fNIRS data were collected from the motor cortex using short-separation and long-separation source-detector configurations. Participants performed three experimental tasks: a 5-minute resting state, ball-squeezing tasks (3 runs, 24 seconds each), and a motion artifact creation task involving six instructed movements (head tilting right/left/up/down, eyebrow raising, and vocalization). Accelerometer data were recorded as auxiliary measurements.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -12,12 +14,50 @@
     "Boas, David": {},
     "Yücel, Meryem": {}
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds007420.v1.0.2",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "fNIRS"
     },
+    {
+      "term": "functional near-infrared spectroscopy"
+    },
+    {
+      "term": "Motor Cortex",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D009044"
+    },
+    {
+      "term": "motion artifact"
+    },
+    {
+      "term": "image reconstruction"
+    },
+    {
+      "term": "high-density optodes"
+    },
+    {
+      "term": "resting state"
+    },
+    {
+      "term": "ball-squeezing task"
+    },
+    {
+      "term": "short-separation"
+    },
+    {
+      "term": "long-separation"
+    },
+    {
+      "term": "SNIRF"
+    },
+    {
+      "term": "accelerometer"
+    },
+    {
+      "term": "BIDS"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "10.1117/1.nph.10.2.025007",
       "identifier_type": "DOI",
@@ -37,6 +77,11 @@
       "identifier": "10.1117/1.NPh.10.2.025007",
       "identifier_type": "DOI",
       "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds007420.v1.0.2",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "funding_references": [
@@ -47,12 +92,12 @@
     }
   ],
   "resource_type_general": "Dataset",
+  "resource_type_specific": "fNIRS Dataset",
   "modalities": [
     "nirs"
   ],
-  "resource_type_specific": "fNIRS Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "598.5 MB (65 files)"
   ],
   "formats": [
     ".html",
@@ -63,47 +108,5 @@
     ".tsv",
     ".yml"
   ],
-  "description": "This high-density functional near-infrared spectroscopy (fNIRS) dataset comprises neuroimaging recordings from the motor cortex during three experimental paradigms: resting state, ball-squeezing motor tasks, and purposeful motion artifact creation. The dataset includes accelerometer auxiliary data and is designed to support the development and validation of motion artifact correction methods in fNIRS neuroimaging. This dataset is mirrored on NEMAR from OpenNeuro (ds007420).",
-  "methods_description": "High-density fNIRS recordings were acquired from the motor cortex region using a multi-distance probe configuration. Data collection included three experimental conditions: resting state (5 min), ball-squeezing task (24 min across 3 runs), and motion creation task (5 min) involving six instructed movements. Accelerometer data were recorded concurrently to capture motion artifacts.",
-  "keywords": [
-    {
-      "term": "fNIRS"
-    },
-    {
-      "term": "functional near-infrared spectroscopy"
-    },
-    {
-      "term": "Motor Cortex",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D009044"
-    },
-    {
-      "term": "motion artifact"
-    },
-    {
-      "term": "high-density imaging"
-    },
-    {
-      "term": "multi-distance"
-    },
-    {
-      "term": "ball-squeezing task"
-    },
-    {
-      "term": "neuroimaging"
-    },
-    {
-      "term": "accelerometer"
-    },
-    {
-      "term": "motion correction"
-    },
-    {
-      "term": "resting state"
-    },
-    {
-      "term": "SNIRF"
-    }
-  ],
-  "source_hash": "274366986b86b170f43f4b05eea7f77eb56da9162c6ae7c78452355b4519c3db"
+  "source_hash": "61feae99b181b10be1ec7b124450392cd495b1d6a3c111dda9cd1d85e2f8b6f4"
 }
