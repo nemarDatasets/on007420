@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "dataset_id": "on007420",
-  "source": "openneuro",
-  "source_id": "ds007420",
+  "pipeline_stage": "enriched",
   "title": "A Light Weight Multi-Distance fNIRS Dataset for Ball-Squeezing Task and Purposeful Motion Artifact Creation Task",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Gao, Yuanyuan": {},
     "Rogers, De’Ja": {},
@@ -12,27 +12,98 @@
     "Boas, David": {},
     "Yücel, Meryem": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds007420.v1.0.2",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "10.1117/1.nph.10.2.025007",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on007420",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on007420",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.1117/1.NPh.10.2.025007",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
     }
-  ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.7.1",
-  "recording_modality": [
-    "nirs"
-  ],
-  "datatypes": [
-    "nirs"
   ],
   "funding_references": [
     {
-      "funder_name": "NIH BRAIN Initiative (Grant No. 1U01EB029856-01)"
+      "funder_name": "NIH",
+      "award_number": "1U01EB029856-01",
+      "award_title": "NIH BRAIN Initiative"
     }
   ],
-  "acknowledgements": "This work was supported by the NIH BRAIN Initiative (Grant No. 1U01EB029856-01). We thank all the participants and research staff involved in the data collection and analysis."
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "nirs"
+  ],
+  "resource_type_specific": "fNIRS Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".html",
+    ".json",
+    ".md",
+    ".sd",
+    ".snirf",
+    ".tsv",
+    ".yml"
+  ],
+  "description": "This high-density functional near-infrared spectroscopy (fNIRS) dataset comprises neuroimaging recordings from the motor cortex during three experimental paradigms: resting state, ball-squeezing motor tasks, and purposeful motion artifact creation. The dataset includes accelerometer auxiliary data and is designed to support the development and validation of motion artifact correction methods in fNIRS neuroimaging. This dataset is mirrored on NEMAR from OpenNeuro (ds007420).",
+  "methods_description": "High-density fNIRS recordings were acquired from the motor cortex region using a multi-distance probe configuration. Data collection included three experimental conditions: resting state (5 min), ball-squeezing task (24 min across 3 runs), and motion creation task (5 min) involving six instructed movements. Accelerometer data were recorded concurrently to capture motion artifacts.",
+  "keywords": [
+    {
+      "term": "fNIRS"
+    },
+    {
+      "term": "functional near-infrared spectroscopy"
+    },
+    {
+      "term": "Motor Cortex",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D009044"
+    },
+    {
+      "term": "motion artifact"
+    },
+    {
+      "term": "high-density imaging"
+    },
+    {
+      "term": "multi-distance"
+    },
+    {
+      "term": "ball-squeezing task"
+    },
+    {
+      "term": "neuroimaging"
+    },
+    {
+      "term": "accelerometer"
+    },
+    {
+      "term": "motion correction"
+    },
+    {
+      "term": "resting state"
+    },
+    {
+      "term": "SNIRF"
+    }
+  ],
+  "source_hash": "274366986b86b170f43f4b05eea7f77eb56da9162c6ae7c78452355b4519c3db"
 }
