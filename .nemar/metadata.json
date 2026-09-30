@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "A Light Weight Multi-Distance fNIRS Dataset for Ball-Squeezing Task and Purposeful Motion Artifact Creation Task",
-  "description": "This high-density functional near-infrared spectroscopy (fNIRS) dataset comprises neuroimaging recordings from the motor cortex during three experimental paradigms: resting state, ball-squeezing motor tasks (both hands performed sequentially), and purposeful motion artifact creation. The dataset includes concurrent accelerometer measurements and is designed to support the development and validation of motion artifact correction algorithms in fNIRS neuroimaging.",
-  "methods_description": "High-density fNIRS recordings were acquired from the motor cortex region using a light-weight multi-distance probe configuration. Data collection included three experimental conditions: resting state (5 minutes, 1 run), ball-squeezing task (24 minutes total across 3 runs with sequential left and right hand squeezing per run), and motion creation task (5 minutes, 1 run) with instructed head movements and facial expressions. Accelerometer data were recorded concurrently to capture motion artifacts. Data are provided in SNIRF format.",
+  "description": "A multi-distance, high-density fNIRS dataset recorded over the motor cortex with a lightweight system that includes an accelerometer. Participants completed a resting-state recording, a bilateral ball-squeezing task, and a motion creation task with instructed head and facial movements to deliberately induce motion artifacts. The dataset supports work on short-separation regression, motion artifact correction, and diffuse optical tomography image reconstruction.",
+  "methods_description": "High-density multi-distance fNIRS was recorded over the motor cortex with auxiliary accelerometer data. The protocol had a 5-minute resting-state session, a ball-squeezing task for both hands (3 runs, jittered ISI of 5-15 s), and a motion creation task with six instructed movements (head tilts in four directions, eyebrow raising, saying 'hello'; ISI 5-10 s).",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -19,64 +19,34 @@
       "term": "fNIRS"
     },
     {
-      "term": "functional near-infrared spectroscopy"
-    },
-    {
-      "term": "motion artifact"
-    },
-    {
-      "term": "Motor Cortex",
+      "term": "Spectroscopy, Near-Infrared",
       "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D009044"
+      "value_uri": "http://id.nlm.nih.gov/mesh/D019265"
     },
     {
-      "term": "high-density imaging"
+      "term": "motion artifacts"
     },
     {
-      "term": "accelerometer"
+      "term": "short-separation regression"
     },
     {
-      "term": "motion correction"
+      "term": "motor cortex"
     },
     {
-      "term": "resting state"
+      "term": "ball squeezing"
     },
     {
-      "term": "motor task"
-    },
-    {
-      "term": "ball-squeezing"
-    },
-    {
-      "term": "hand motor task"
-    },
-    {
-      "term": "SNIRF format"
-    },
-    {
-      "term": "Neuroimaging",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D059906"
-    },
-    {
-      "term": "Optical Imaging",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D057168"
+      "term": "diffuse optical tomography"
     }
   ],
   "related_identifiers": [
     {
       "identifier": "10.1117/1.nph.10.2.025007",
       "identifier_type": "DOI",
-      "relation_type": "References"
-    },
-    {
-      "identifier": "https://github.com/nemarDatasets/on007420",
-      "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on007420",
+      "identifier": "https://github.com/nemarDatasets/on007420",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
     },
@@ -89,13 +59,17 @@
       "identifier": "10.18112/openneuro.ds007420.v1.0.2",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on007420",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "funding_references": [
     {
-      "funder_name": "NIH",
-      "award_number": "1U01EB029856-01",
-      "award_title": "NIH BRAIN Initiative"
+      "funder_name": "NIH BRAIN Initiative",
+      "award_number": "1U01EB029856-01"
     }
   ],
   "resource_type_general": "Dataset",
@@ -104,7 +78,7 @@
     "nirs"
   ],
   "sizes": [
-    "598.5 MB (65 files)"
+    "571 MB (65 files)"
   ],
   "formats": [
     ".html",
