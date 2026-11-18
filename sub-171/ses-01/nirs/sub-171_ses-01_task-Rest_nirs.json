@@ -1,1 +1,12 @@
-{"TaskName":"Rest","SamplingFrequency":8.719308035714286,"NIRSChannelCount":200,"NIRSSourceOptodeCount":14,"NIRSDetectorOptodeCount":32}
+{
+  "TaskName": "Rest",
+  "SamplingFrequency": 8.719308035714286,
+  "NIRSChannelCount": 200,
+  "NIRSSourceOptodeCount": 14,
+  "NIRSDetectorOptodeCount": 32,
+  "Manufacturer": "NIRx",
+  "ManufacturersModelName": "NIRSport2 16x16 (two cascaded devices)",
+  "CapManufacturersModelName": "NinjaCap",
+  "RecordingDuration": 304.726,
+  "RecordingType": "continuous"
+}

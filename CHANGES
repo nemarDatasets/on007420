@@ -1,3 +1,9 @@
+1.0.3 2026-11-18
+  - 60 sub-*/ses-*/nirs/*_channels.tsv: channel names written as MNE-Python derives them from the SNIRF measurement list ("S1-D1-760.0" -> "S1_D1 760"); row order and the other columns unchanged
+  - 60 *_nirs.json: Manufacturer NIRx, ManufacturersModelName "NIRSport2 16x16 (two cascaded devices)" and CapManufacturersModelName NinjaCap added (doi:10.1117/1.NPh.13.S3.S32606, Method, fNIRS Measurements); RecordingDuration and RecordingType computed from the SNIRF time vector of each recording; the files, published on a single line, are rewritten with one key per line (published values unchanged)
+  - dataset_description.json: BIDSVersion 1.7.1 -> 1.8.0 (the nirs datatype exists in BIDS from version 1.8.0); ReferencesAndLinks: doi:10.1117/1.NPh.13.S3.S32606 appended after the published entry
+  - sourcedata/: the published versions of the files whose values change in this version (60 channels.tsv), byte-identical at the same relative path (plain git files)
+  - dataset_description.json: Version 1.0.0 -> 1.0.3
 1.0.2 2026-03-26
   - updated description
 1.0.1 2026-03-09

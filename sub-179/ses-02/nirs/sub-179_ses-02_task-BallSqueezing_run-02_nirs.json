@@ -1,1 +1,12 @@
-{"TaskName":"BallSqueezing","SamplingFrequency":11.625744047619047,"NIRSChannelCount":200,"NIRSSourceOptodeCount":14,"NIRSDetectorOptodeCount":32}
+{
+  "TaskName": "BallSqueezing",
+  "SamplingFrequency": 11.625744047619047,
+  "NIRSChannelCount": 200,
+  "NIRSSourceOptodeCount": 14,
+  "NIRSDetectorOptodeCount": 32,
+  "Manufacturer": "NIRx",
+  "ManufacturersModelName": "NIRSport2 16x16 (two cascaded devices)",
+  "CapManufacturersModelName": "NinjaCap",
+  "RecordingDuration": 479.969,
+  "RecordingType": "continuous"
+}
